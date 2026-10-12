@@ -37,11 +37,6 @@ object DualSenseNative {
     @JvmStatic external fun hasPending(h: Long): Boolean
 }
 
-/**
- * USB transport. NOTE: claimInterface(force = true) detaches Android's HID
- * driver, so the OS stops delivering this pad as a normal gamepad. Read input
- * yourself with [readInput] and forward it to your game/engine.
- */
 class DualSenseUsb(private val ctx: Context) {
     private val usb = ctx.getSystemService(Context.USB_SERVICE) as UsbManager
     private var conn: UsbDeviceConnection? = null
