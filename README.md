@@ -2,7 +2,7 @@
 
 # ♡ DualSense Engine ♡
 
-###`*A tiny, no-dependency C++17 engine for making your DualSense feel a little more ✧ magical ✧*`
+### `*A tiny, no-dependency C++17 engine for making your DualSense feel a little more ✧ magical ✧*`
 
 `୨୧` ─────────────── `୨୧`
 
