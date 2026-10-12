@@ -19,12 +19,9 @@ Android app can use. This library builds the controller's output reports itself 
 (JNI + Kotlin) that delivers them through `UsbManager`.
 
 > ****Status:**** the report builder is covered by unit tests, including a Bluetooth CRC32 check against an
-
-> independent implementation, and the Android binding compiles and has been built into a test app. Behaviour of
-
-> each effect on real hardware is still being verified, so please open an issue with what you observe. The
-
-> unofficial effects (bow, galloping) and the legacy effects may differ between firmware versions.
+independent implementation, and the Android binding compiles and has been built into a test app. Behaviour of
+each effect on real hardware is still being verified, so please open an issue with what you observe. The
+unofficial effects (bow, galloping) and the legacy effects may differ between firmware versions.
 
 ## ✧ Features**
 
