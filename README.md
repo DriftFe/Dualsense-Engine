@@ -43,8 +43,6 @@ unofficial effects (bow, galloping) and the legacy effects may differ between fi
 
 | Function | Parameters |
 
-|---|---|
-
 | `ds_trigger_feedback` | start zone 0-9, strength 0-8 |
 
 | `ds_trigger_weapon` | start 2-7, end (start+1)-8, strength 0-8 |
