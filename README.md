@@ -211,8 +211,6 @@ All setters return `1` on success and `0` on invalid arguments, with state uncha
 
 | Group | Functions |
 
-|---|---|
-
 | Lifecycle | `ds_create(transport)`, `ds_destroy(ctx)`, `ds_is_dualsense(vid, pid)` |
 
 | Triggers | the `ds_trigger_*` functions listed above (`ds_side` is `DS_LEFT` or `DS_RIGHT`) |
@@ -291,8 +289,6 @@ The USB output report (offsets include the report ID at byte 0):
 
 | Offset | Content |
 
-|---|---|
-
 | 0 | Report ID `0x02` |
 
 | 1 | Valid flags 0: rumble `0x01` and `0x02`, right trigger `0x04`, left trigger `0x08` |
@@ -348,8 +344,6 @@ and a little-endian CRC32 over `0xA2` plus the preceding 74 bytes.
 ## ❀ Troubleshooting**
 
 | Symptom | Likely cause |
-
-|---|---|
 
 | `findDevice()` returns null | Charge-only cable, no OTG support, or the controller is only connected over Bluetooth |
 
