@@ -26,28 +26,6 @@ Android app can use. This library builds the controller's output reports itself 
 
 > unofficial effects (bow, galloping) and the legacy effects may differ between firmware versions.
 
-## ♡ Contents**
-
-- [Features](#features)
-
-- [Quick start (C/C++)](#quick-start-cc)
-
-- [Quick start (Android)](#quick-start-android)
-
-- [API reference](#api-reference)
-
-- [Building and testing](#building-and-testing)
-
-- [How it works](#how-it-works)
-
-- [Known limitations](#known-limitations)
-
-- [Troubleshooting](#troubleshooting)
-
-- [Credits](#credits)
-
-- [License](#license)
-
 ## ✧ Features**
 
 - Builds USB (`0x02`, 63 bytes) and Bluetooth (`0x31`, 78 bytes with sequence number and CRC32) output reports
