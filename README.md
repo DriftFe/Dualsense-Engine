@@ -337,9 +337,7 @@ and a little-endian CRC32 over `0xA2` plus the preceding 74 bytes.
 
 - The library does not parse input reports or read the controller's firmware version.
 
-- On Android, only the USB transport is available, and the controller is detached from Android's gamepad driver
-
-  while your app holds it (see above).
+- On Android, only the USB transport is available, and the controller is detached from Android's gamepad driver while your app holds it (see above).
 
 ## ❀ Troubleshooting**
 
@@ -359,9 +357,7 @@ and a little-endian CRC32 over `0xA2` plus the preceding 74 bytes.
 
 Report layout and flag bits were checked against the Linux `hid-playstation` driver. Trigger effect encodings
 
-follow Nielk1's DualSense trigger effect generator. Thanks to Nielk1 and the wider community for documenting
-
-this protocol.
+follow Nielk1's DualSense trigger effect generator. Thanks to Nielk1 and the wider community for documenting this protocol.
 
 This project is not affiliated with or endorsed by Sony Interactive Entertainment. "DualSense" and
 
