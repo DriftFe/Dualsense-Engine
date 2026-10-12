@@ -376,10 +376,4 @@ this protocol.
 
 This project is not affiliated with or endorsed by Sony Interactive Entertainment. "DualSense" and
 
-"PlayStation" are trademarks of Sony Interactive Entertainment.
-
-## ♡ License**
-
-No license has been chosen yet. Add a `LICENSE` file before publishing if you want others to be able to reuse
-
-the code.
+"PlayStation" are trademarks of Sony Interactive Entertainment... its just a fun thing I made cuz I was bored :p
