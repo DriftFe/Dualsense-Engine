@@ -1,19 +1,3 @@
-/*
- * DualSense Engine - output-report builder for Sony DualSense / DualSense Edge.
- *
- * Builds the bytes only; it performs no I/O. Hand the result to whatever
- * transport you have (Android UsbManager, hidapi, Unity, ...).
- *
- * Layout sources: Linux hid-playstation driver (report structure, valid flags)
- * and Nielk1's TriggerEffectGenerator (trigger effect encodings).
- *
- * Conventions
- *  - Every setter returns 1 on success, 0 on invalid arguments (state untouched).
- *  - Parameters that mean "no effect" (strength 0, ...) emit Off.
- *  - Only fields you changed carry their "valid" flag, so untouched features
- *    (and the game's own writes) are never overwritten with zeros.
- *  - Thread-safe per context.
- */
 #ifndef DUALSENSE_ENGINE_H
 #define DUALSENSE_ENGINE_H
 
